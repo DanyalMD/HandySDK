@@ -1,0 +1,16 @@
+PODS:
+  - HandySDK (0.1.0)
+
+DEPENDENCIES:
+  - HandySDK (from `../`)
+
+EXTERNAL SOURCES:
+  HandySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HandySDK: b4567f581df0ef6f128e26513eef67b223b57e7b
+
+PODFILE CHECKSUM: e99f225fb6a0b2fdd7a8cd099b73ff2d5263d662
+
+COCOAPODS: 1.11.2

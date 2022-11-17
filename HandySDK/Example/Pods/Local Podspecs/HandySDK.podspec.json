@@ -1,0 +1,22 @@
+{
+  "name": "HandySDK",
+  "version": "0.1.0",
+  "summary": "A short description of HandySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DanyalMD/HandySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DanyalMD": "danyal.arshad@arhamsoft.org"
+  },
+  "source": {
+    "git": "https://github.com/DanyalMD/HandySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HandySDK/Classes/**/*"
+}
