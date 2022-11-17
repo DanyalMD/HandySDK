@@ -1,0 +1,2 @@
+# HandySDK
+Pod for DeskillzSDK
