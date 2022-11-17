@@ -15,6 +15,14 @@ Pod::Spec.new do |s|
 
   #s.dependency "IQKeyboardManagerSwift"
   s.source_files = 'HandySDK/Classes/**/*.{swift}'
+  s.source_files = 'HandySDK/TGroup/**/*.{storyboard,swift}'
+  
+  
+ # s.resource_bundles = {
+ #   'PCProximitySDK' => [
+  #      'PCProximitySDK/**/*.{xib,png,xcassets}'
+ #   ]
+#  }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
