@@ -43,8 +43,8 @@
 		0CB5F41A85CBC5D731A732EA8DFF8574 /* Pods-HandySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HandySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15663D3FDBA7DCB1CDBED9EE03DCDA2F /* Pods-HandySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HandySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1795D6A2D70CDD384B1A9E6EC6E5CAC7 /* HandySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		183195992926411C004ACA0A /* TranspoterSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TranspoterSB.storyboard; sourceTree = "<group>"; };
-		1831959E292643D1004ACA0A /* TransporterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporterVC.swift; sourceTree = "<group>"; };
+		183195992926411C004ACA0A /* TranspoterSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TranspoterSB.storyboard; path = TGroup/TranspoterSB.storyboard; sourceTree = "<group>"; };
+		1831959E292643D1004ACA0A /* TransporterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransporterVC.swift; path = TGroup/TransporterVC.swift; sourceTree = "<group>"; };
 		18DAD3982926457200ACC645 /* Transorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transorter.swift; sourceTree = "<group>"; };
 		2D6836A701C67A79013A9007B8BAA15F /* HandySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandySDK-prefix.pch"; sourceTree = "<group>"; };
 		4274B3CDAE3261159C7F532617EFFB9F /* Pods-HandySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HandySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -107,8 +107,6 @@
 		1831959D2926414D004ACA0A /* TGroup */ = {
 			isa = PBXGroup;
 			children = (
-				183195992926411C004ACA0A /* TranspoterSB.storyboard */,
-				1831959E292643D1004ACA0A /* TransporterVC.swift */,
 			);
 			path = TGroup;
 			sourceTree = "<group>";
@@ -229,6 +227,8 @@
 			isa = PBXGroup;
 			children = (
 				18DAD3982926457200ACC645 /* Transorter.swift */,
+				183195992926411C004ACA0A /* TranspoterSB.storyboard */,
+				1831959E292643D1004ACA0A /* TransporterVC.swift */,
 				1831959D2926414D004ACA0A /* TGroup */,
 				EF37D6F1F882A9EF824F567E8CC8AA57 /* Pod */,
 				3F2B630103BD18804FC54CAE83AF8C92 /* Support Files */,

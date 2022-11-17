@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   #s.dependency "IQKeyboardManagerSwift"
   s.source_files = 'HandySDK/Classes/**/*.{swift}'
-  s.source_files = 'HandySDK/TGroup/**/*.{storyboard,swift}'
+  s.source_files = 'HandySDK/Classes/**/*.{storyboard,swift}'
   
   
  # s.resource_bundles = {
